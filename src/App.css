@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tektur:wght@400..900&display=swap');
+
+h1{
+  border: 10px;
+  border-style:groove;
+  height: 50px;
+  width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+}
+body{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
+button{
+
+  border-radius: 6px;
+  height: 30px;
+  width: 150px;
+  color: white;
+  background-color: blue;
+  font-family: "Playfair Display", serif;
+  border-color: rgb(183, 220, 215);
+}
+input{
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  border-radius: 10px;
+  height: 40px;
+  width: 160px;
+
+}
+.container.dark{
+  background-color: black;
+  height: 200vw;
+  width: 100vw;
+  color: azure;
+  display: flext;
+  top: -10px;
+  
+}
+.container.dark .toggle-btn{
+  background-color: green;
+}
